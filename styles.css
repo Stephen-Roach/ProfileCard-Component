@@ -13,8 +13,6 @@
 }
 
 .card__topImg {
-  position: absolute;
-  object-fit: contain;
   max-width: 100%;
   z-index: 1;
 }
@@ -28,9 +26,30 @@
   left: 120px;
 }
 
-/* .card__middle {
+.card__middle {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  margin-top: 60px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.card__middleInfo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card__middleInfo-Name {
+  font-weight: 700;
+}
+
+.card__middleInfo-Age {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+/* .card__middleName > p {
+  font-size: 18px;
 } */
 
 .footer {
