@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -10,6 +12,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
 .card__topImg {
@@ -46,11 +49,18 @@
 .card__middleInfo-Age {
   font-weight: 400;
   color: hsl(0, 0%, 59%);
+  padding-left: 10px;
 }
 
-/* .card__middleName > p {
-  font-size: 18px;
-} */
+.card__middle-City {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+hr {
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
 
 .footer {
   font-size: 11px;
